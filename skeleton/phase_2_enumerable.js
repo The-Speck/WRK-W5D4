@@ -30,12 +30,12 @@ Array.prototype.myReduce = function (callBack, initialValue) {
   return initialValue;
 };
 
-// without initialValue
-console.log([1, 2, 3].myReduce(function(acc, el) {
-  return acc + el;
-})); // => 6
-
-// with initialValue
-console.log([1, 2, 3].myReduce(function(acc, el) {
-  return acc + el;
-}, 25)); // => 31
+// // without initialValue
+// console.log([1, 2, 3].myReduce(function(acc, el) {
+//   return acc + el;
+// })); // => 6
+// 
+// // with initialValue
+// console.log([1, 2, 3].myReduce(function(acc, el) {
+//   return acc + el;
+// }, 25)); // => 31
